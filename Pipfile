@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery="*"
+pytube="*"
+pyffmpeg="*"
+torrentp="*"
+loguru="*"
+
+[dev-packages]
+
+[requires]
+python_full_version = "3.10.13"
